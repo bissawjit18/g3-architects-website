@@ -147,14 +147,17 @@ nav a {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 20px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
 }
 
 .features-box {
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-    padding: 15px;
-    margin-bottom: 10px;
+    padding: 30px;
+    margin-top: 50px;
 }
 
 .features-box h4 {
@@ -173,6 +176,7 @@ nav a {
     width: 545px;
     height: 895px;
     margin-top: 20px;
+    /* position: relative; */
 }
 
 .architect-bottom {
@@ -180,9 +184,12 @@ nav a {
     text-align: center;
     border-radius: 8px;
     background: #FF900E;
-    /* padding: 30px; */
     width: 258px;
     height: 140px;
+    position: relative;
+    bottom: 96px;
+    right: 209px;
+    
 }
 
 .architect-bottom h4 {
