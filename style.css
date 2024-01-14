@@ -4,6 +4,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+* {
+    max-width: 1800px;
+    margin: auto;
+}
+
 /* Shared styles */
 
 .text-title {
@@ -69,16 +74,21 @@ nav a {
     color: #131313;
     font-size: 64px;
     font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.banner-title-description{
+    margin-bottom: 50px;
 }
 
 .banner-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%vh;
     padding: 50px;
     margin-top: 50px;
-    max-width: 133vh;
+    /* max-width: fit-content; */
 }
 
 /* teams styles start  */
@@ -185,6 +195,7 @@ nav a {
 /* fact section styles  */
 .facts-container {
     margin: 0px 200px;
+    margin-top: 130px;
 }
 
 .facts-title {
